@@ -1,0 +1,16 @@
+﻿<dom-module id="test-c">
+    <template>
+        <label>{{tagi}}</label>
+        <input type="text" value="{{value::input}}">
+        <button id="button1" on-tap="regularTap">Reset</button>
+        <button on-click="handleClick">Kick Me</button>
+    </template>
+
+    <style>
+        #button1 {
+            background-color: magenta;
+        }
+    </style>
+
+    <script src="test-c.js"></script>
+</dom-module>
